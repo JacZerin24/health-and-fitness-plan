@@ -1,4 +1,4 @@
-const CACHE='shiftfit-v4';
+const CACHE='shiftfit-v5';
 const ASSETS=['./','./index.html','./styles.css','./visual-v4.css','./app.js','./manifest.webmanifest'];
 self.addEventListener('install',e=>{self.skipWaiting();e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)))});
 self.addEventListener('activate',e=>e.waitUntil(Promise.all([clients.claim(),caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k))))])));
