@@ -385,8 +385,8 @@
     "rhr30d": 70.1,
     "hrv7d": 45.4,
     "hrv30d": 36.8,
-    "active7d": 262.7,
-    "active30d": 374.5,
+    "active7d": 395.4,
+    "active30d": 383.6,
     "vo2max": 34.84,
     "vo2maxDate": "2026-09-15",
     "weightHealth": 198,
@@ -1278,7 +1278,8 @@
           "value": 34.84
         }
       ]
-    }
+    },
+    "walkingSpeed30dMph": 2.46
   },
   "settings": {
     "calendarMonth": "2026-09"
@@ -1497,6 +1498,1140 @@
       "fatRange": "60–75",
       "fiberRange": "25–35",
       "hydration": "~2.5–3.0 L/day baseline"
+    },
+    "calendar": [
+      {
+        "date": "2026-09-21",
+        "t": "rest",
+        "n": "Rest / flex"
+      },
+      {
+        "date": "2026-09-22",
+        "t": "cardio",
+        "k": "steady",
+        "n": "Cardio · steady"
+      },
+      {
+        "date": "2026-09-23",
+        "t": "rest",
+        "n": "Rest / flex"
+      },
+      {
+        "date": "2026-09-24",
+        "t": "strength",
+        "w": "A",
+        "n": "Strength A"
+      },
+      {
+        "date": "2026-09-25",
+        "t": "cardio",
+        "k": "steady",
+        "n": "Cardio · steady"
+      },
+      {
+        "date": "2026-09-26",
+        "t": "strength",
+        "w": "B",
+        "n": "Strength B"
+      },
+      {
+        "date": "2026-09-27",
+        "t": "recovery",
+        "n": "Recovery walk"
+      },
+      {
+        "date": "2026-09-28",
+        "t": "strength",
+        "w": "C",
+        "n": "Strength C"
+      },
+      {
+        "date": "2026-09-29",
+        "t": "cardio",
+        "k": "steady",
+        "n": "Cardio · steady"
+      },
+      {
+        "date": "2026-09-30",
+        "t": "recovery",
+        "n": "Recovery walk"
+      },
+      {
+        "date": "2026-10-01",
+        "t": "rest",
+        "n": "Rest / flex"
+      },
+      {
+        "date": "2026-10-02",
+        "t": "strength",
+        "w": "A",
+        "n": "Strength A"
+      },
+      {
+        "date": "2026-10-03",
+        "t": "cardio",
+        "k": "steady",
+        "n": "Cardio · steady"
+      },
+      {
+        "date": "2026-10-04",
+        "t": "strength",
+        "w": "B",
+        "n": "Strength B"
+      },
+      {
+        "date": "2026-10-05",
+        "t": "cardio",
+        "k": "steady",
+        "n": "Cardio · steady"
+      },
+      {
+        "date": "2026-10-06",
+        "t": "strength",
+        "w": "C",
+        "n": "Strength C"
+      },
+      {
+        "date": "2026-10-07",
+        "t": "cardio",
+        "k": "steady",
+        "n": "Cardio · steady"
+      },
+      {
+        "date": "2026-10-08",
+        "t": "strength",
+        "w": "A",
+        "n": "Strength A"
+      },
+      {
+        "date": "2026-10-09",
+        "t": "recovery",
+        "k": "easy",
+        "n": "Travel / easy walk"
+      },
+      {
+        "date": "2026-10-10",
+        "t": "recovery",
+        "k": "easy",
+        "n": "Travel / easy walk"
+      },
+      {
+        "date": "2026-10-11",
+        "t": "recovery",
+        "k": "easy",
+        "n": "Travel / easy walk"
+      },
+      {
+        "date": "2026-10-12",
+        "t": "recovery",
+        "k": "easy",
+        "n": "Travel / easy walk"
+      },
+      {
+        "date": "2026-10-13",
+        "t": "recovery",
+        "n": "Recovery walk"
+      },
+      {
+        "date": "2026-10-14",
+        "t": "cardio",
+        "k": "steady",
+        "n": "Cardio · steady"
+      },
+      {
+        "date": "2026-10-15",
+        "t": "strength",
+        "w": "B",
+        "n": "Strength B"
+      },
+      {
+        "date": "2026-10-16",
+        "t": "rest",
+        "n": "Rest / flex"
+      },
+      {
+        "date": "2026-10-17",
+        "t": "strength",
+        "w": "C",
+        "n": "Strength C"
+      },
+      {
+        "date": "2026-10-18",
+        "t": "cardio",
+        "k": "steady",
+        "n": "Cardio · steady"
+      },
+      {
+        "date": "2026-10-19",
+        "t": "strength",
+        "w": "A",
+        "n": "Strength A"
+      },
+      {
+        "date": "2026-10-20",
+        "t": "cardio",
+        "k": "steady",
+        "n": "Cardio · steady"
+      },
+      {
+        "date": "2026-10-21",
+        "t": "strength",
+        "w": "B",
+        "n": "Strength B"
+      },
+      {
+        "date": "2026-10-22",
+        "t": "cardio",
+        "k": "steady",
+        "n": "Cardio · steady"
+      },
+      {
+        "date": "2026-10-23",
+        "t": "recovery",
+        "k": "easy",
+        "n": "Birthday · flex"
+      },
+      {
+        "date": "2026-10-24",
+        "t": "recovery",
+        "k": "easy",
+        "n": "Birthday · flex"
+      },
+      {
+        "date": "2026-10-25",
+        "t": "recovery",
+        "k": "easy",
+        "n": "Birthday · flex"
+      },
+      {
+        "date": "2026-10-26",
+        "t": "strength",
+        "w": "C",
+        "n": "Strength C"
+      },
+      {
+        "date": "2026-10-27",
+        "t": "cardio",
+        "k": "steady",
+        "n": "Cardio · steady"
+      },
+      {
+        "date": "2026-10-28",
+        "t": "strength",
+        "w": "A",
+        "n": "Strength A"
+      },
+      {
+        "date": "2026-10-29",
+        "t": "rest",
+        "n": "Rest / flex"
+      },
+      {
+        "date": "2026-10-30",
+        "t": "cardio",
+        "k": "steady",
+        "n": "Cardio · steady"
+      },
+      {
+        "date": "2026-10-31",
+        "t": "strength",
+        "w": "B",
+        "n": "Strength B"
+      },
+      {
+        "date": "2026-11-01",
+        "t": "recovery",
+        "n": "Recovery walk"
+      },
+      {
+        "date": "2026-11-02",
+        "t": "strength",
+        "w": "C",
+        "n": "Strength C"
+      },
+      {
+        "date": "2026-11-03",
+        "t": "cardio",
+        "k": "steady",
+        "n": "Cardio · steady"
+      },
+      {
+        "date": "2026-11-04",
+        "t": "strength",
+        "w": "A",
+        "n": "Strength A"
+      },
+      {
+        "date": "2026-11-05",
+        "t": "cardio",
+        "k": "steady",
+        "n": "Cardio · steady"
+      },
+      {
+        "date": "2026-11-06",
+        "t": "rest",
+        "n": "Rest / flex"
+      },
+      {
+        "date": "2026-11-07",
+        "t": "strength",
+        "w": "B",
+        "n": "Strength B"
+      },
+      {
+        "date": "2026-11-08",
+        "t": "recovery",
+        "n": "Recovery walk"
+      },
+      {
+        "date": "2026-11-09",
+        "t": "strength",
+        "w": "C",
+        "n": "Strength C"
+      },
+      {
+        "date": "2026-11-10",
+        "t": "cardio",
+        "k": "easy",
+        "n": "Cardio · easy steady"
+      },
+      {
+        "date": "2026-11-11",
+        "t": "strength",
+        "w": "A",
+        "n": "Strength A"
+      },
+      {
+        "date": "2026-11-12",
+        "t": "cardio",
+        "k": "easy",
+        "n": "Cardio · easy steady"
+      },
+      {
+        "date": "2026-11-13",
+        "t": "recovery",
+        "k": "easy",
+        "n": "Travel / easy walk"
+      },
+      {
+        "date": "2026-11-14",
+        "t": "recovery",
+        "k": "easy",
+        "n": "Travel / easy walk"
+      },
+      {
+        "date": "2026-11-15",
+        "t": "recovery",
+        "k": "easy",
+        "n": "Travel / easy walk"
+      },
+      {
+        "date": "2026-11-16",
+        "t": "strength",
+        "w": "B",
+        "n": "Strength B"
+      },
+      {
+        "date": "2026-11-17",
+        "t": "cardio",
+        "k": "steady",
+        "n": "Cardio · steady"
+      },
+      {
+        "date": "2026-11-18",
+        "t": "strength",
+        "w": "C",
+        "n": "Strength C"
+      },
+      {
+        "date": "2026-11-19",
+        "t": "recovery",
+        "n": "Recovery walk"
+      },
+      {
+        "date": "2026-11-20",
+        "t": "cardio",
+        "k": "steady",
+        "n": "Cardio · steady"
+      },
+      {
+        "date": "2026-11-21",
+        "t": "strength",
+        "w": "A",
+        "n": "Strength A"
+      },
+      {
+        "date": "2026-11-22",
+        "t": "rest",
+        "n": "Rest / flex"
+      },
+      {
+        "date": "2026-11-23",
+        "t": "strength",
+        "w": "B",
+        "n": "Strength B"
+      },
+      {
+        "date": "2026-11-24",
+        "t": "cardio",
+        "k": "steady",
+        "n": "Cardio · steady"
+      },
+      {
+        "date": "2026-11-25",
+        "t": "recovery",
+        "k": "easy",
+        "n": "Holiday · easy activity"
+      },
+      {
+        "date": "2026-11-26",
+        "t": "recovery",
+        "k": "easy",
+        "n": "Holiday · easy activity"
+      },
+      {
+        "date": "2026-11-27",
+        "t": "recovery",
+        "k": "easy",
+        "n": "Holiday · easy activity"
+      },
+      {
+        "date": "2026-11-28",
+        "t": "recovery",
+        "k": "easy",
+        "n": "Holiday · easy activity"
+      },
+      {
+        "date": "2026-11-29",
+        "t": "recovery",
+        "k": "easy",
+        "n": "Holiday · easy activity"
+      },
+      {
+        "date": "2026-11-30",
+        "t": "rest",
+        "n": "Rest / flex"
+      },
+      {
+        "date": "2026-12-01",
+        "t": "strength",
+        "w": "C",
+        "n": "Strength C"
+      },
+      {
+        "date": "2026-12-02",
+        "t": "cardio",
+        "k": "steady",
+        "n": "Cardio · steady"
+      },
+      {
+        "date": "2026-12-03",
+        "t": "strength",
+        "w": "A",
+        "n": "Strength A"
+      },
+      {
+        "date": "2026-12-04",
+        "t": "cardio",
+        "k": "interval",
+        "n": "Cardio · intervals"
+      },
+      {
+        "date": "2026-12-05",
+        "t": "strength",
+        "w": "B",
+        "n": "Strength B"
+      },
+      {
+        "date": "2026-12-06",
+        "t": "recovery",
+        "n": "Recovery walk"
+      },
+      {
+        "date": "2026-12-07",
+        "t": "strength",
+        "w": "C",
+        "n": "Strength C"
+      },
+      {
+        "date": "2026-12-08",
+        "t": "cardio",
+        "k": "steady",
+        "n": "Cardio · steady"
+      },
+      {
+        "date": "2026-12-09",
+        "t": "strength",
+        "w": "A",
+        "n": "Strength A"
+      },
+      {
+        "date": "2026-12-10",
+        "t": "rest",
+        "n": "Rest / flex"
+      },
+      {
+        "date": "2026-12-11",
+        "t": "cardio",
+        "k": "interval",
+        "n": "Cardio · intervals"
+      },
+      {
+        "date": "2026-12-12",
+        "t": "strength",
+        "w": "B",
+        "n": "Strength B"
+      },
+      {
+        "date": "2026-12-13",
+        "t": "recovery",
+        "n": "Recovery walk"
+      },
+      {
+        "date": "2026-12-14",
+        "t": "strength",
+        "w": "C",
+        "n": "Strength C"
+      },
+      {
+        "date": "2026-12-15",
+        "t": "cardio",
+        "k": "steady",
+        "n": "Cardio · steady"
+      },
+      {
+        "date": "2026-12-16",
+        "t": "strength",
+        "w": "A",
+        "n": "Strength A"
+      },
+      {
+        "date": "2026-12-17",
+        "t": "recovery",
+        "n": "Recovery walk"
+      },
+      {
+        "date": "2026-12-18",
+        "t": "cardio",
+        "k": "interval",
+        "n": "Cardio · intervals"
+      },
+      {
+        "date": "2026-12-19",
+        "t": "strength",
+        "w": "B",
+        "n": "Strength B"
+      },
+      {
+        "date": "2026-12-20",
+        "t": "rest",
+        "n": "Rest / flex"
+      },
+      {
+        "date": "2026-12-21",
+        "t": "strength",
+        "w": "C",
+        "n": "Strength C"
+      },
+      {
+        "date": "2026-12-22",
+        "t": "cardio",
+        "k": "steady",
+        "n": "Cardio · steady"
+      },
+      {
+        "date": "2026-12-23",
+        "t": "strength",
+        "w": "A",
+        "n": "Strength A"
+      },
+      {
+        "date": "2026-12-24",
+        "t": "recovery",
+        "n": "Recovery walk"
+      },
+      {
+        "date": "2026-12-25",
+        "t": "recovery",
+        "k": "easy",
+        "n": "Holiday · easy activity"
+      },
+      {
+        "date": "2026-12-26",
+        "t": "strength",
+        "w": "B",
+        "n": "Strength B"
+      },
+      {
+        "date": "2026-12-27",
+        "t": "cardio",
+        "k": "interval",
+        "n": "Cardio · intervals"
+      },
+      {
+        "date": "2026-12-28",
+        "t": "strength",
+        "w": "C",
+        "n": "Strength C"
+      },
+      {
+        "date": "2026-12-29",
+        "t": "cardio",
+        "k": "steady",
+        "n": "Cardio · steady"
+      },
+      {
+        "date": "2026-12-30",
+        "t": "strength",
+        "w": "A",
+        "n": "Strength A"
+      },
+      {
+        "date": "2026-12-31",
+        "t": "recovery",
+        "n": "Recovery walk"
+      },
+      {
+        "date": "2027-01-01",
+        "t": "cardio",
+        "k": "interval",
+        "n": "Cardio · intervals"
+      },
+      {
+        "date": "2027-01-02",
+        "t": "strength",
+        "w": "B",
+        "n": "Strength B"
+      },
+      {
+        "date": "2027-01-03",
+        "t": "rest",
+        "n": "Rest / flex"
+      },
+      {
+        "date": "2027-01-04",
+        "t": "strength",
+        "w": "C",
+        "n": "Strength C"
+      },
+      {
+        "date": "2027-01-05",
+        "t": "cardio",
+        "k": "steady",
+        "n": "Cardio · steady"
+      },
+      {
+        "date": "2027-01-06",
+        "t": "strength",
+        "w": "A",
+        "n": "Strength A"
+      },
+      {
+        "date": "2027-01-07",
+        "t": "cardio",
+        "k": "easy",
+        "n": "Cardio · easy steady"
+      },
+      {
+        "date": "2027-01-08",
+        "t": "rest",
+        "n": "Rest / flex"
+      },
+      {
+        "date": "2027-01-09",
+        "t": "strength",
+        "w": "B",
+        "n": "Strength B"
+      },
+      {
+        "date": "2027-01-10",
+        "t": "recovery",
+        "n": "Recovery walk"
+      },
+      {
+        "date": "2027-01-11",
+        "t": "strength",
+        "w": "C",
+        "n": "Strength C"
+      },
+      {
+        "date": "2027-01-12",
+        "t": "cardio",
+        "k": "easy",
+        "n": "Cardio · easy steady"
+      },
+      {
+        "date": "2027-01-13",
+        "t": "rest",
+        "n": "Rest / flex"
+      },
+      {
+        "date": "2027-01-14",
+        "t": "rest",
+        "n": "Rest / flex"
+      },
+      {
+        "date": "2027-01-15",
+        "t": "recovery",
+        "n": "Recovery walk"
+      },
+      {
+        "date": "2027-01-16",
+        "t": "strength",
+        "w": "A",
+        "n": "Strength A"
+      },
+      {
+        "date": "2027-01-17",
+        "t": "cardio",
+        "k": "steady",
+        "n": "Cardio · steady"
+      },
+      {
+        "date": "2027-01-18",
+        "t": "strength",
+        "w": "B",
+        "n": "Strength B"
+      },
+      {
+        "date": "2027-01-19",
+        "t": "cardio",
+        "k": "steady",
+        "n": "Cardio · steady"
+      },
+      {
+        "date": "2027-01-20",
+        "t": "strength",
+        "w": "C",
+        "n": "Strength C"
+      },
+      {
+        "date": "2027-01-21",
+        "t": "rest",
+        "n": "Rest / flex"
+      },
+      {
+        "date": "2027-01-22",
+        "t": "cardio",
+        "k": "interval",
+        "n": "Cardio · intervals"
+      },
+      {
+        "date": "2027-01-23",
+        "t": "strength",
+        "w": "A",
+        "n": "Strength A"
+      },
+      {
+        "date": "2027-01-24",
+        "t": "recovery",
+        "n": "Recovery walk"
+      },
+      {
+        "date": "2027-01-25",
+        "t": "strength",
+        "w": "B",
+        "n": "Strength B"
+      },
+      {
+        "date": "2027-01-26",
+        "t": "cardio",
+        "k": "steady",
+        "n": "Cardio · steady"
+      },
+      {
+        "date": "2027-01-27",
+        "t": "strength",
+        "w": "C",
+        "n": "Strength C"
+      },
+      {
+        "date": "2027-01-28",
+        "t": "rest",
+        "n": "Rest / flex"
+      },
+      {
+        "date": "2027-01-29",
+        "t": "cardio",
+        "k": "interval",
+        "n": "Cardio · intervals"
+      },
+      {
+        "date": "2027-01-30",
+        "t": "strength",
+        "w": "A",
+        "n": "Strength A"
+      },
+      {
+        "date": "2027-01-31",
+        "t": "recovery",
+        "n": "Recovery walk"
+      },
+      {
+        "date": "2027-02-01",
+        "t": "strength",
+        "w": "B",
+        "n": "Strength B"
+      },
+      {
+        "date": "2027-02-02",
+        "t": "cardio",
+        "k": "steady",
+        "n": "Cardio · steady"
+      },
+      {
+        "date": "2027-02-03",
+        "t": "strength",
+        "w": "C",
+        "n": "Strength C"
+      },
+      {
+        "date": "2027-02-04",
+        "t": "cardio",
+        "k": "interval",
+        "n": "Cardio · intervals"
+      },
+      {
+        "date": "2027-02-05",
+        "t": "recovery",
+        "k": "easy",
+        "n": "Mardi Gras · recovery"
+      },
+      {
+        "date": "2027-02-06",
+        "t": "recovery",
+        "k": "easy",
+        "n": "Mardi Gras · recovery"
+      },
+      {
+        "date": "2027-02-07",
+        "t": "recovery",
+        "k": "easy",
+        "n": "Mardi Gras · recovery"
+      },
+      {
+        "date": "2027-02-08",
+        "t": "recovery",
+        "k": "easy",
+        "n": "Mardi Gras · recovery"
+      },
+      {
+        "date": "2027-02-09",
+        "t": "recovery",
+        "n": "Recovery walk"
+      },
+      {
+        "date": "2027-02-10",
+        "t": "cardio",
+        "k": "steady",
+        "n": "Cardio · steady"
+      },
+      {
+        "date": "2027-02-11",
+        "t": "strength",
+        "w": "A",
+        "n": "Strength A"
+      },
+      {
+        "date": "2027-02-12",
+        "t": "cardio",
+        "k": "interval",
+        "n": "Cardio · intervals"
+      },
+      {
+        "date": "2027-02-13",
+        "t": "strength",
+        "w": "B",
+        "n": "Strength B"
+      },
+      {
+        "date": "2027-02-14",
+        "t": "recovery",
+        "n": "Recovery walk"
+      },
+      {
+        "date": "2027-02-15",
+        "t": "strength",
+        "w": "C",
+        "n": "Strength C"
+      },
+      {
+        "date": "2027-02-16",
+        "t": "cardio",
+        "k": "steady",
+        "n": "Cardio · steady"
+      },
+      {
+        "date": "2027-02-17",
+        "t": "strength",
+        "w": "A",
+        "n": "Strength A"
+      },
+      {
+        "date": "2027-02-18",
+        "t": "recovery",
+        "n": "Recovery walk"
+      },
+      {
+        "date": "2027-02-19",
+        "t": "cardio",
+        "k": "interval",
+        "n": "Cardio · intervals"
+      },
+      {
+        "date": "2027-02-20",
+        "t": "strength",
+        "w": "B",
+        "n": "Strength B"
+      },
+      {
+        "date": "2027-02-21",
+        "t": "rest",
+        "n": "Rest / flex"
+      },
+      {
+        "date": "2027-02-22",
+        "t": "strength",
+        "w": "C",
+        "n": "Strength C"
+      },
+      {
+        "date": "2027-02-23",
+        "t": "cardio",
+        "k": "steady",
+        "n": "Cardio · steady"
+      },
+      {
+        "date": "2027-02-24",
+        "t": "strength",
+        "w": "A",
+        "n": "Strength A"
+      },
+      {
+        "date": "2027-02-25",
+        "t": "recovery",
+        "n": "Recovery walk"
+      },
+      {
+        "date": "2027-02-26",
+        "t": "cardio",
+        "k": "interval",
+        "n": "Cardio · intervals"
+      },
+      {
+        "date": "2027-02-27",
+        "t": "strength",
+        "w": "B",
+        "n": "Strength B"
+      },
+      {
+        "date": "2027-02-28",
+        "t": "rest",
+        "n": "Rest / flex"
+      },
+      {
+        "date": "2027-03-01",
+        "t": "strength",
+        "w": "C",
+        "n": "Strength C"
+      },
+      {
+        "date": "2027-03-02",
+        "t": "cardio",
+        "k": "steady",
+        "n": "Cardio · steady"
+      },
+      {
+        "date": "2027-03-03",
+        "t": "strength",
+        "w": "A",
+        "n": "Strength A"
+      },
+      {
+        "date": "2027-03-04",
+        "t": "cardio",
+        "k": "interval",
+        "n": "Cardio · intervals"
+      },
+      {
+        "date": "2027-03-05",
+        "t": "rest",
+        "n": "Rest / flex"
+      },
+      {
+        "date": "2027-03-06",
+        "t": "strength",
+        "w": "B",
+        "n": "Strength B"
+      },
+      {
+        "date": "2027-03-07",
+        "t": "recovery",
+        "n": "Recovery walk"
+      },
+      {
+        "date": "2027-03-08",
+        "t": "strength",
+        "w": "C",
+        "n": "Strength C"
+      },
+      {
+        "date": "2027-03-09",
+        "t": "cardio",
+        "k": "easy",
+        "n": "Cardio · easy steady"
+      },
+      {
+        "date": "2027-03-10",
+        "t": "strength",
+        "w": "A",
+        "n": "Strength A"
+      },
+      {
+        "date": "2027-03-11",
+        "t": "rest",
+        "n": "Rest / flex"
+      },
+      {
+        "date": "2027-03-12",
+        "t": "recovery",
+        "n": "Recovery walk"
+      },
+      {
+        "date": "2027-03-13",
+        "t": "strength",
+        "w": "B",
+        "n": "Strength B"
+      },
+      {
+        "date": "2027-03-14",
+        "t": "recovery",
+        "n": "Recovery walk"
+      },
+      {
+        "date": "2027-03-15",
+        "t": "strength",
+        "w": "C",
+        "n": "Strength C"
+      },
+      {
+        "date": "2027-03-16",
+        "t": "cardio",
+        "k": "steady",
+        "n": "Cardio · steady"
+      },
+      {
+        "date": "2027-03-17",
+        "t": "strength",
+        "w": "A",
+        "n": "Strength A"
+      },
+      {
+        "date": "2027-03-18",
+        "t": "cardio",
+        "k": "interval",
+        "n": "Cardio · intervals"
+      },
+      {
+        "date": "2027-03-19",
+        "t": "strength",
+        "w": "B",
+        "n": "Strength B"
+      },
+      {
+        "date": "2027-03-20",
+        "t": "recovery",
+        "k": "easy",
+        "n": "Birthday · flex"
+      },
+      {
+        "date": "2027-03-21",
+        "t": "recovery",
+        "n": "Recovery walk"
+      },
+      {
+        "date": "2027-03-22",
+        "t": "strength",
+        "w": "C",
+        "n": "Strength C"
+      },
+      {
+        "date": "2027-03-23",
+        "t": "cardio",
+        "k": "steady",
+        "n": "Cardio · steady"
+      },
+      {
+        "date": "2027-03-24",
+        "t": "strength",
+        "w": "A",
+        "n": "Strength A"
+      },
+      {
+        "date": "2027-03-25",
+        "t": "rest",
+        "n": "Rest / flex"
+      },
+      {
+        "date": "2027-03-26",
+        "t": "cardio",
+        "k": "interval",
+        "n": "Cardio · intervals"
+      },
+      {
+        "date": "2027-03-27",
+        "t": "strength",
+        "w": "B",
+        "n": "Strength B"
+      },
+      {
+        "date": "2027-03-28",
+        "t": "recovery",
+        "n": "Recovery walk"
+      },
+      {
+        "date": "2027-03-29",
+        "t": "strength",
+        "w": "C",
+        "n": "Strength C"
+      },
+      {
+        "date": "2027-03-30",
+        "t": "cardio",
+        "k": "steady",
+        "n": "Cardio · steady"
+      },
+      {
+        "date": "2027-03-31",
+        "t": "strength",
+        "w": "A",
+        "n": "Strength A"
+      }
+    ],
+    "calendarMeta": {
+      "source": "Body_Recomposition_Plan_UPDATED_Sep2026_Mar2027.pdf · Section 11",
+      "start": "2026-09-21",
+      "end": "2027-03-31",
+      "rule": "Session assignment follows the approved dated master plan; current Google Calendar shift controls the displayed timing window."
+    },
+    "cardioGuide": {
+      "basis": "Starting walking-pad ranges calibrated around recent Apple Health ordinary walking speed (~2.46 mph); RPE/talk test overrides speed.",
+      "easy": {
+        "pace": "2.1–2.6 mph",
+        "rpe": "3–4",
+        "feel": "Relaxed breathing; recovery pace."
+      },
+      "brisk": {
+        "pace": "2.7–3.1 mph",
+        "rpe": "4–5",
+        "feel": "Purposeful walk; breathing elevated but full sentences still comfortable."
+      },
+      "fast": {
+        "pace": "3.2–3.6 mph",
+        "rpe": "6–7",
+        "feel": "Strong purposeful walk, controlled and never a sprint."
+      },
+      "adjustment": "Start at the low end. Change speed by ~0.1–0.2 mph as needed to match the target RPE; do not force a listed speed if form or breathing says otherwise."
     }
   }
 }
