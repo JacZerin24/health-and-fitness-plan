@@ -1,0 +1,4 @@
+*private*.json
+*healthkit*.json
+*.ics
+.DS_Store
