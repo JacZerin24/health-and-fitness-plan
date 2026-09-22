@@ -16,16 +16,18 @@
         <div><strong>ShiftFit</strong><span>adaptive recomp dashboard</span></div>
       </div>
       <nav id="nav">
-        <button data-view="today" class="active">Today</button>
-        <button data-view="week">This week</button>
-        <button data-view="schedule">Schedule</button>
-        <button data-view="training">Training</button>
-        <button data-view="nutrition">Nutrition</button>
-        <button data-view="health">Health</button>
-        <button data-view="progress">Progress</button>
-        <button data-view="sync">Data & sync</button>
+        <div class="nav-section-label">Plan</div>
+        <button data-view="today" data-title="Dashboard" class="active"><span class="nav-icon">⌂</span><span>Dashboard</span></button>
+        <button data-view="week" data-title="This week"><span class="nav-icon">◫</span><span>This week</span></button>
+        <button data-view="schedule" data-title="Schedule"><span class="nav-icon">▦</span><span>Schedule</span></button>
+        <button data-view="training" data-title="Training"><span class="nav-icon">◆</span><span>Training</span></button>
+        <button data-view="nutrition" data-title="Nutrition"><span class="nav-icon">◉</span><span>Nutrition</span></button>
+        <div class="nav-section-label">Trends</div>
+        <button data-view="health" data-title="Health trends"><span class="nav-icon">⌁</span><span>Health trends</span></button>
+        <button data-view="progress" data-title="Progress"><span class="nav-icon">↗</span><span>Progress</span></button>
+        <button data-view="sync" data-title="Data & sync"><span class="nav-icon">⟳</span><span>Data & sync</span></button>
       </nav>
-      <div class="privacy-note">Private metrics stay in this browser unless you export them.</div>
+      <div class="privacy-note"><span class="sync-dot"></span> Auto-synced from Health + Calendar</div>
     </aside>
 
     <main>
