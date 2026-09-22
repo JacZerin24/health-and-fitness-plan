@@ -1,1 +1,1210 @@
-{"version":2,"profile":{"name":"Jacob","startWeight":200,"targetWeight":180,"waist":36,"heightIn":70,"protein":160,"maintenanceEstimate":2450,"commuteMin":40},"scheduleRanges":[{"start":"2026-09-22","end":"2026-09-23","code":"G"},{"start":"2026-09-24","end":"2026-09-25","code":"X"},{"start":"2026-09-28","end":"2026-09-29","code":"M"},{"start":"2026-09-30","end":"2026-10-01","code":"P"},{"start":"2026-10-02","end":"2026-10-02","code":"X"},{"start":"2026-10-04","end":"2026-10-07","code":"G"},{"start":"2026-10-13","end":"2026-10-13","code":"K"},{"start":"2026-10-14","end":"2026-10-14","code":"G"},{"start":"2026-10-15","end":"2026-10-16","code":"X"},{"start":"2026-10-17","end":"2026-10-17","code":"P"},{"start":"2026-10-20","end":"2026-10-20","code":"X"},{"start":"2026-10-21","end":"2026-10-21","code":"G"},{"start":"2026-10-22","end":"2026-10-22","code":"X"},{"start":"2026-10-28","end":"2026-10-30","code":"P"},{"start":"2026-11-01","end":"2026-11-03","code":"R"},{"start":"2026-11-06","end":"2026-11-12","code":"A"},{"start":"2026-11-18","end":"2026-11-19","code":"X"},{"start":"2026-11-20","end":"2026-11-24","code":"K"},{"start":"2026-11-30","end":"2026-12-02","code":"I"},{"start":"2026-12-03","end":"2026-12-04","code":"X"},{"start":"2026-12-07","end":"2026-12-08","code":"I"},{"start":"2026-12-09","end":"2026-12-09","code":"X"},{"start":"2026-12-11","end":"2026-12-12","code":"R"},{"start":"2026-12-15","end":"2026-12-15","code":"X"},{"start":"2026-12-16","end":"2026-12-20","code":"K"},{"start":"2026-12-23","end":"2026-12-27","code":"K"},{"start":"2026-12-30","end":"2027-01-05","code":"R"},{"start":"2027-01-08","end":"2027-01-14","code":"A"},{"start":"2027-01-18","end":"2027-01-19","code":"I"},{"start":"2027-01-20","end":"2027-01-22","code":"X"},{"start":"2027-01-25","end":"2027-01-26","code":"I"},{"start":"2027-01-27","end":"2027-01-30","code":"X"},{"start":"2027-02-01","end":"2027-02-04","code":"X"},{"start":"2027-02-09","end":"2027-02-09","code":"X"},{"start":"2027-02-10","end":"2027-02-14","code":"I"},{"start":"2027-02-17","end":"2027-02-21","code":"I"},{"start":"2027-02-24","end":"2027-03-02","code":"R"},{"start":"2027-03-05","end":"2027-03-11","code":"A"},{"start":"2027-03-15","end":"2027-03-16","code":"K"},{"start":"2027-03-17","end":"2027-03-19","code":"X"},{"start":"2027-03-22","end":"2027-03-23","code":"K"},{"start":"2027-03-24","end":"2027-03-26","code":"X"},{"start":"2027-03-29","end":"2027-04-02","code":"X"},{"start":"2027-04-06","end":"2027-04-06","code":"X"},{"start":"2027-04-07","end":"2027-04-11","code":"M"},{"start":"2027-04-14","end":"2027-04-18","code":"M"},{"start":"2027-04-21","end":"2027-04-27","code":"P"},{"start":"2027-04-29","end":"2027-05-05","code":"W"},{"start":"2027-05-10","end":"2027-05-11","code":"G"},{"start":"2027-05-12","end":"2027-05-14","code":"X"},{"start":"2027-05-17","end":"2027-05-18","code":"G"},{"start":"2027-05-19","end":"2027-05-22","code":"X"},{"start":"2027-05-24","end":"2027-05-26","code":"X"},{"start":"2027-06-01","end":"2027-06-01","code":"X"},{"start":"2027-06-02","end":"2027-06-06","code":"G"},{"start":"2027-06-09","end":"2027-06-13","code":"G"},{"start":"2027-06-16","end":"2027-06-22","code":"P"},{"start":"2027-06-24","end":"2027-06-30","code":"W"},{"start":"2027-07-05","end":"2027-07-06","code":"M"},{"start":"2027-07-07","end":"2027-07-09","code":"X"},{"start":"2027-07-12","end":"2027-07-13","code":"K"},{"start":"2027-07-14","end":"2027-07-16","code":"X"},{"start":"2027-07-19","end":"2027-07-23","code":"X"},{"start":"2027-07-27","end":"2027-07-27","code":"X"},{"start":"2027-07-28","end":"2027-08-01","code":"M"},{"start":"2027-08-04","end":"2027-08-08","code":"M"},{"start":"2027-08-11","end":"2027-08-17","code":"P"},{"start":"2027-08-19","end":"2027-08-25","code":"W"},{"start":"2027-08-30","end":"2027-08-31","code":"G"},{"start":"2027-09-01","end":"2027-09-03","code":"X"}],"scheduleOverrides":{},"weightEntries":[],"health":{"snapshotDate":"2026-09-22","latestSleepHours":8.5,"sleep7d":8.0,"sleep30d":7.49,"steps7d":5186,"steps30d":4656,"rhr7d":69.1,"rhr30d":70.1,"hrv7d":45.4,"hrv30d":36.8,"active7d":263,"active30d":375,"vo2max":34.84,"vo2maxDate":"2026-09-15","weightHealth":198.0,"weightHealthDate":"2026-06-29"},"settings":{"calendarMonth":"2026-09"},"meta":{"starterImported":true,"publicAutoSync":true,"sourceNote":"Work schedule from Google Calendar; wellness snapshot from connected Apple Health.","scheduleStart":"2026-09-22","scheduleThrough":"2027-09-03","lastAutoUpdate":"2026-09-22T11:00:00-05:00"},"plan":{"phases":[{"id":"p1a","name":"Phase 1 · Re-entry","start":"2026-09-21","end":"2026-09-27","cal":2100,"protein":160,"steps":"~5,500/day","strength":2,"cardio":["steady","steady"],"dur":"20–25 min","mode":"cut","steadyDose":"5 easy + 10–15 brisk RPE 4 + 5 easy","easyDose":"20–30 min comfortable walking · RPE 3–4"},{"id":"p1b","name":"Phase 1 · Re-entry","start":"2026-09-28","end":"2026-10-04","cal":2100,"protein":160,"steps":"~6,500/day","strength":3,"cardio":["steady","steady"],"dur":"20–25 min","mode":"cut","steadyDose":"5 easy + 10–15 brisk RPE 4 + 5 easy","easyDose":"20–30 min comfortable walking · RPE 3–4"},{"id":"p1c","name":"Phase 1 · Re-entry","start":"2026-10-05","end":"2026-10-08","cal":2100,"protein":160,"steps":"~7,000/day","strength":3,"cardio":["steady","steady"],"dur":"20–25 min","mode":"cut","steadyDose":"5 easy + 10–15 brisk RPE 4 + 5 easy","easyDose":"20–30 min comfortable walking · RPE 3–4"},{"id":"flex1","name":"Green Bay flex","start":"2026-10-09","end":"2026-10-12","cal":"Maintenance / flex","protein":160,"steps":"Natural activity","strength":0,"cardio":["easy"],"dur":"20–30 min optional","mode":"flex","easyDose":"Natural activity or 20–30 min easy walking"},{"id":"p2","name":"Phase 2 · Base build","start":"2026-10-13","end":"2026-11-24","cal":2100,"protein":160,"steps":"7,000–8,000/day","strength":3,"cardio":["steady","steady"],"dur":"30–35 min","mode":"cut","steadyDose":"5 easy + 20–25 brisk RPE 4–5 + 5 easy","easyDose":"20–30 min comfortable walking · RPE 3–4"},{"id":"thanks","name":"Thanksgiving maintenance","start":"2026-11-25","end":"2026-11-29","cal":"Maintenance","protein":160,"steps":"Natural activity","strength":0,"cardio":["easy"],"dur":"20–30 min optional","mode":"flex","easyDose":"Natural activity or 20–30 min easy walking"},{"id":"p3","name":"Phase 3 · Capacity","start":"2026-11-30","end":"2027-01-05","cal":"2,050–2,100*","protein":160,"steps":"7,500–8,500/day","strength":3,"cardio":["steady","interval"],"dur":"35–40 / 30–35 min","mode":"cut","steadyDose":"5 easy + 25–30 brisk RPE 4–5 + 5 easy","intervalDose":"5 easy + 5 × (2 fast / 2 easy) + 5–10 easy","easyDose":"20–30 min comfortable walking · RPE 3–4"},{"id":"break","name":"Diet break / overnight adaptation","start":"2027-01-06","end":"2027-01-14","cal":"2,400–2,500","protein":160,"steps":"6,000–7,000+; sleep first","strength":2,"cardio":["easy","easy"],"dur":"20–30 min","mode":"maintenance","easyDose":"20–30 min comfortable walking · RPE 3–4; no intervals while sleep is shifting"},{"id":"p4","name":"Phase 4 · Athletic cut","start":"2027-01-15","end":"2027-02-04","cal":"2,050–2,100*","protein":160,"steps":"7,500–8,500/day","strength":3,"cardio":["steady","interval"],"dur":"40–45 / 34–36 min","mode":"cut","steadyDose":"5 easy + 30–35 brisk RPE 4–5 + 5 easy","intervalDose":"5 easy + 6 × (2 fast / 2 easy) + 5–7 easy","easyDose":"20–30 min comfortable walking · RPE 3–4"},{"id":"mardi","name":"Mardi Gras flex","start":"2027-02-05","end":"2027-02-08","cal":"Maintenance / flex","protein":160,"steps":"As practical","strength":0,"cardio":["easy"],"dur":"Recovery walking only","mode":"flex","easyDose":"Recovery walking only; no hard training around dehydration/alcohol"},{"id":"p5","name":"Phase 5 · Finish / hold","nameAfter":"Continuation · Phase 5 rules","start":"2027-02-09","end":"2027-03-31","continueAfter":true,"cal":"2,050–2,100 until goal; then maintenance","protein":160,"steps":"7,500–9,000/day","strength":3,"cardio":["steady","interval"],"dur":"40–45 / 34–36 min","mode":"cut-to-goal","steadyDose":"5 easy + 30–35 brisk RPE 4–5 + 5 easy","intervalDose":"5 easy + 6 × (2 fast / 2 easy) + 5–7 easy","easyDose":"20–30 min comfortable walking · RPE 3–4"}],"nutrition":{"proteinRange":"150–170 g","fatRange":"60–75","fiberRange":"25–35","hydration":"~2.5–3.0 L/day baseline"}}}
+{
+  "version": 2,
+  "profile": {
+    "name": "Jacob",
+    "startWeight": 200,
+    "targetWeight": 180,
+    "waist": 36,
+    "heightIn": 70,
+    "protein": 160,
+    "maintenanceEstimate": 2450,
+    "commuteMin": 40
+  },
+  "scheduleRanges": [
+    {
+      "start": "2026-09-22",
+      "end": "2026-09-23",
+      "code": "G"
+    },
+    {
+      "start": "2026-09-24",
+      "end": "2026-09-25",
+      "code": "X"
+    },
+    {
+      "start": "2026-09-28",
+      "end": "2026-09-29",
+      "code": "M"
+    },
+    {
+      "start": "2026-09-30",
+      "end": "2026-10-01",
+      "code": "P"
+    },
+    {
+      "start": "2026-10-02",
+      "end": "2026-10-02",
+      "code": "X"
+    },
+    {
+      "start": "2026-10-04",
+      "end": "2026-10-07",
+      "code": "G"
+    },
+    {
+      "start": "2026-10-13",
+      "end": "2026-10-13",
+      "code": "K"
+    },
+    {
+      "start": "2026-10-14",
+      "end": "2026-10-14",
+      "code": "G"
+    },
+    {
+      "start": "2026-10-15",
+      "end": "2026-10-16",
+      "code": "X"
+    },
+    {
+      "start": "2026-10-17",
+      "end": "2026-10-17",
+      "code": "P"
+    },
+    {
+      "start": "2026-10-20",
+      "end": "2026-10-20",
+      "code": "X"
+    },
+    {
+      "start": "2026-10-21",
+      "end": "2026-10-21",
+      "code": "G"
+    },
+    {
+      "start": "2026-10-22",
+      "end": "2026-10-22",
+      "code": "X"
+    },
+    {
+      "start": "2026-10-28",
+      "end": "2026-10-30",
+      "code": "P"
+    },
+    {
+      "start": "2026-11-01",
+      "end": "2026-11-03",
+      "code": "R"
+    },
+    {
+      "start": "2026-11-06",
+      "end": "2026-11-12",
+      "code": "A"
+    },
+    {
+      "start": "2026-11-18",
+      "end": "2026-11-19",
+      "code": "X"
+    },
+    {
+      "start": "2026-11-20",
+      "end": "2026-11-24",
+      "code": "K"
+    },
+    {
+      "start": "2026-11-30",
+      "end": "2026-12-02",
+      "code": "I"
+    },
+    {
+      "start": "2026-12-03",
+      "end": "2026-12-04",
+      "code": "X"
+    },
+    {
+      "start": "2026-12-07",
+      "end": "2026-12-08",
+      "code": "I"
+    },
+    {
+      "start": "2026-12-09",
+      "end": "2026-12-09",
+      "code": "X"
+    },
+    {
+      "start": "2026-12-11",
+      "end": "2026-12-12",
+      "code": "R"
+    },
+    {
+      "start": "2026-12-15",
+      "end": "2026-12-15",
+      "code": "X"
+    },
+    {
+      "start": "2026-12-16",
+      "end": "2026-12-20",
+      "code": "K"
+    },
+    {
+      "start": "2026-12-23",
+      "end": "2026-12-27",
+      "code": "K"
+    },
+    {
+      "start": "2026-12-30",
+      "end": "2027-01-05",
+      "code": "R"
+    },
+    {
+      "start": "2027-01-08",
+      "end": "2027-01-14",
+      "code": "A"
+    },
+    {
+      "start": "2027-01-18",
+      "end": "2027-01-19",
+      "code": "I"
+    },
+    {
+      "start": "2027-01-20",
+      "end": "2027-01-22",
+      "code": "X"
+    },
+    {
+      "start": "2027-01-25",
+      "end": "2027-01-26",
+      "code": "I"
+    },
+    {
+      "start": "2027-01-27",
+      "end": "2027-01-30",
+      "code": "X"
+    },
+    {
+      "start": "2027-02-01",
+      "end": "2027-02-04",
+      "code": "X"
+    },
+    {
+      "start": "2027-02-09",
+      "end": "2027-02-09",
+      "code": "X"
+    },
+    {
+      "start": "2027-02-10",
+      "end": "2027-02-14",
+      "code": "I"
+    },
+    {
+      "start": "2027-02-17",
+      "end": "2027-02-21",
+      "code": "I"
+    },
+    {
+      "start": "2027-02-24",
+      "end": "2027-03-02",
+      "code": "R"
+    },
+    {
+      "start": "2027-03-05",
+      "end": "2027-03-11",
+      "code": "A"
+    },
+    {
+      "start": "2027-03-15",
+      "end": "2027-03-16",
+      "code": "K"
+    },
+    {
+      "start": "2027-03-17",
+      "end": "2027-03-19",
+      "code": "X"
+    },
+    {
+      "start": "2027-03-22",
+      "end": "2027-03-23",
+      "code": "K"
+    },
+    {
+      "start": "2027-03-24",
+      "end": "2027-03-26",
+      "code": "X"
+    },
+    {
+      "start": "2027-03-29",
+      "end": "2027-04-02",
+      "code": "X"
+    },
+    {
+      "start": "2027-04-06",
+      "end": "2027-04-06",
+      "code": "X"
+    },
+    {
+      "start": "2027-04-07",
+      "end": "2027-04-11",
+      "code": "M"
+    },
+    {
+      "start": "2027-04-14",
+      "end": "2027-04-18",
+      "code": "M"
+    },
+    {
+      "start": "2027-04-21",
+      "end": "2027-04-27",
+      "code": "P"
+    },
+    {
+      "start": "2027-04-29",
+      "end": "2027-05-05",
+      "code": "W"
+    },
+    {
+      "start": "2027-05-10",
+      "end": "2027-05-11",
+      "code": "G"
+    },
+    {
+      "start": "2027-05-12",
+      "end": "2027-05-14",
+      "code": "X"
+    },
+    {
+      "start": "2027-05-17",
+      "end": "2027-05-18",
+      "code": "G"
+    },
+    {
+      "start": "2027-05-19",
+      "end": "2027-05-22",
+      "code": "X"
+    },
+    {
+      "start": "2027-05-24",
+      "end": "2027-05-26",
+      "code": "X"
+    },
+    {
+      "start": "2027-06-01",
+      "end": "2027-06-01",
+      "code": "X"
+    },
+    {
+      "start": "2027-06-02",
+      "end": "2027-06-06",
+      "code": "G"
+    },
+    {
+      "start": "2027-06-09",
+      "end": "2027-06-13",
+      "code": "G"
+    },
+    {
+      "start": "2027-06-16",
+      "end": "2027-06-22",
+      "code": "P"
+    },
+    {
+      "start": "2027-06-24",
+      "end": "2027-06-30",
+      "code": "W"
+    },
+    {
+      "start": "2027-07-05",
+      "end": "2027-07-06",
+      "code": "M"
+    },
+    {
+      "start": "2027-07-07",
+      "end": "2027-07-09",
+      "code": "X"
+    },
+    {
+      "start": "2027-07-12",
+      "end": "2027-07-13",
+      "code": "K"
+    },
+    {
+      "start": "2027-07-14",
+      "end": "2027-07-16",
+      "code": "X"
+    },
+    {
+      "start": "2027-07-19",
+      "end": "2027-07-23",
+      "code": "X"
+    },
+    {
+      "start": "2027-07-27",
+      "end": "2027-07-27",
+      "code": "X"
+    },
+    {
+      "start": "2027-07-28",
+      "end": "2027-08-01",
+      "code": "M"
+    },
+    {
+      "start": "2027-08-04",
+      "end": "2027-08-08",
+      "code": "M"
+    },
+    {
+      "start": "2027-08-11",
+      "end": "2027-08-17",
+      "code": "P"
+    },
+    {
+      "start": "2027-08-19",
+      "end": "2027-08-25",
+      "code": "W"
+    },
+    {
+      "start": "2027-08-30",
+      "end": "2027-08-31",
+      "code": "G"
+    },
+    {
+      "start": "2027-09-01",
+      "end": "2027-09-03",
+      "code": "X"
+    }
+  ],
+  "scheduleOverrides": {},
+  "weightEntries": [],
+  "health": {
+    "snapshotDate": "2026-09-22",
+    "latestSleepHours": 8.5,
+    "sleep7d": 8,
+    "sleep30d": 7.49,
+    "steps7d": 5186.4,
+    "steps30d": 4655.6,
+    "rhr7d": 69.1,
+    "rhr30d": 70.1,
+    "hrv7d": 45.4,
+    "hrv30d": 36.8,
+    "active7d": 262.7,
+    "active30d": 374.5,
+    "vo2max": 34.84,
+    "vo2maxDate": "2026-09-15",
+    "weightHealth": 198,
+    "weightHealthDate": "2026-06-29",
+    "series": {
+      "steps": [
+        {
+          "date": "2026-08-23",
+          "value": 1900
+        },
+        {
+          "date": "2026-08-24",
+          "value": 3903
+        },
+        {
+          "date": "2026-08-25",
+          "value": 4745
+        },
+        {
+          "date": "2026-08-26",
+          "value": 3566
+        },
+        {
+          "date": "2026-08-27",
+          "value": 3083
+        },
+        {
+          "date": "2026-08-28",
+          "value": 2190
+        },
+        {
+          "date": "2026-08-29",
+          "value": 2469
+        },
+        {
+          "date": "2026-08-30",
+          "value": 1581
+        },
+        {
+          "date": "2026-08-31",
+          "value": 2133
+        },
+        {
+          "date": "2026-09-01",
+          "value": 3171
+        },
+        {
+          "date": "2026-09-02",
+          "value": 1376
+        },
+        {
+          "date": "2026-09-03",
+          "value": 1333
+        },
+        {
+          "date": "2026-09-04",
+          "value": 2433
+        },
+        {
+          "date": "2026-09-05",
+          "value": 3121
+        },
+        {
+          "date": "2026-09-06",
+          "value": 1664
+        },
+        {
+          "date": "2026-09-07",
+          "value": 1645
+        },
+        {
+          "date": "2026-09-08",
+          "value": 2341
+        },
+        {
+          "date": "2026-09-09",
+          "value": 2282
+        },
+        {
+          "date": "2026-09-10",
+          "value": 1736
+        },
+        {
+          "date": "2026-09-11",
+          "value": 6374
+        },
+        {
+          "date": "2026-09-12",
+          "value": 8327
+        },
+        {
+          "date": "2026-09-13",
+          "value": 20900
+        },
+        {
+          "date": "2026-09-14",
+          "value": 21090
+        },
+        {
+          "date": "2026-09-15",
+          "value": 13772
+        },
+        {
+          "date": "2026-09-16",
+          "value": 3687
+        },
+        {
+          "date": "2026-09-17",
+          "value": 4131
+        },
+        {
+          "date": "2026-09-18",
+          "value": 2744
+        },
+        {
+          "date": "2026-09-19",
+          "value": 5867
+        },
+        {
+          "date": "2026-09-20",
+          "value": 5162
+        },
+        {
+          "date": "2026-09-21",
+          "value": 942
+        }
+      ],
+      "active": [
+        {
+          "date": "2026-08-23",
+          "value": 273
+        },
+        {
+          "date": "2026-08-24",
+          "value": 532
+        },
+        {
+          "date": "2026-08-25",
+          "value": 223
+        },
+        {
+          "date": "2026-08-26",
+          "value": 386
+        },
+        {
+          "date": "2026-08-27",
+          "value": 341
+        },
+        {
+          "date": "2026-08-28",
+          "value": 348
+        },
+        {
+          "date": "2026-08-29",
+          "value": 365
+        },
+        {
+          "date": "2026-08-30",
+          "value": 15
+        },
+        {
+          "date": "2026-08-31",
+          "value": 276
+        },
+        {
+          "date": "2026-09-01",
+          "value": 363
+        },
+        {
+          "date": "2026-09-02",
+          "value": 157
+        },
+        {
+          "date": "2026-09-03",
+          "value": 183
+        },
+        {
+          "date": "2026-09-04",
+          "value": 351
+        },
+        {
+          "date": "2026-09-05",
+          "value": 297
+        },
+        {
+          "date": "2026-09-06",
+          "value": 288
+        },
+        {
+          "date": "2026-09-07",
+          "value": 286
+        },
+        {
+          "date": "2026-09-08",
+          "value": 268
+        },
+        {
+          "date": "2026-09-09",
+          "value": 319
+        },
+        {
+          "date": "2026-09-10",
+          "value": 215
+        },
+        {
+          "date": "2026-09-11",
+          "value": 100
+        },
+        {
+          "date": "2026-09-12",
+          "value": 507
+        },
+        {
+          "date": "2026-09-13",
+          "value": 1279
+        },
+        {
+          "date": "2026-09-14",
+          "value": 1368
+        },
+        {
+          "date": "2026-09-15",
+          "value": 929
+        },
+        {
+          "date": "2026-09-16",
+          "value": 323
+        },
+        {
+          "date": "2026-09-17",
+          "value": 422
+        },
+        {
+          "date": "2026-09-18",
+          "value": 194
+        },
+        {
+          "date": "2026-09-19",
+          "value": 368
+        },
+        {
+          "date": "2026-09-20",
+          "value": 334
+        },
+        {
+          "date": "2026-09-21",
+          "value": 198
+        }
+      ],
+      "rhr": [
+        {
+          "date": "2026-08-23",
+          "value": 66
+        },
+        {
+          "date": "2026-08-24",
+          "value": 78
+        },
+        {
+          "date": "2026-08-25",
+          "value": 69
+        },
+        {
+          "date": "2026-08-26",
+          "value": 74
+        },
+        {
+          "date": "2026-08-27",
+          "value": 72
+        },
+        {
+          "date": "2026-08-28",
+          "value": 68
+        },
+        {
+          "date": "2026-08-29",
+          "value": 67
+        },
+        {
+          "date": "2026-08-31",
+          "value": 67
+        },
+        {
+          "date": "2026-09-01",
+          "value": 64
+        },
+        {
+          "date": "2026-09-02",
+          "value": 76
+        },
+        {
+          "date": "2026-09-03",
+          "value": 74
+        },
+        {
+          "date": "2026-09-04",
+          "value": 68
+        },
+        {
+          "date": "2026-09-05",
+          "value": 66
+        },
+        {
+          "date": "2026-09-06",
+          "value": 68
+        },
+        {
+          "date": "2026-09-07",
+          "value": 67
+        },
+        {
+          "date": "2026-09-08",
+          "value": 74
+        },
+        {
+          "date": "2026-09-09",
+          "value": 71
+        },
+        {
+          "date": "2026-09-10",
+          "value": 69.5
+        },
+        {
+          "date": "2026-09-11",
+          "value": 68
+        },
+        {
+          "date": "2026-09-12",
+          "value": 70
+        },
+        {
+          "date": "2026-09-13",
+          "value": 77
+        },
+        {
+          "date": "2026-09-14",
+          "value": 77
+        },
+        {
+          "date": "2026-09-15",
+          "value": 69.4
+        },
+        {
+          "date": "2026-09-16",
+          "value": 70
+        },
+        {
+          "date": "2026-09-17",
+          "value": 71.8
+        },
+        {
+          "date": "2026-09-18",
+          "value": 67.5
+        },
+        {
+          "date": "2026-09-19",
+          "value": 68
+        },
+        {
+          "date": "2026-09-20",
+          "value": 67.7
+        },
+        {
+          "date": "2026-09-21",
+          "value": 69.3
+        }
+      ],
+      "hrv": [
+        {
+          "date": "2026-08-23",
+          "value": 39.4
+        },
+        {
+          "date": "2026-08-24",
+          "value": 33.5
+        },
+        {
+          "date": "2026-08-25",
+          "value": 30.7
+        },
+        {
+          "date": "2026-08-26",
+          "value": 37.9
+        },
+        {
+          "date": "2026-08-27",
+          "value": 36.5
+        },
+        {
+          "date": "2026-08-28",
+          "value": 30.1
+        },
+        {
+          "date": "2026-08-29",
+          "value": 37.3
+        },
+        {
+          "date": "2026-08-30",
+          "value": 35.6
+        },
+        {
+          "date": "2026-08-31",
+          "value": 23.2
+        },
+        {
+          "date": "2026-09-01",
+          "value": 27.5
+        },
+        {
+          "date": "2026-09-02",
+          "value": 38
+        },
+        {
+          "date": "2026-09-03",
+          "value": 45
+        },
+        {
+          "date": "2026-09-04",
+          "value": 36.2
+        },
+        {
+          "date": "2026-09-05",
+          "value": 28.1
+        },
+        {
+          "date": "2026-09-06",
+          "value": 37.5
+        },
+        {
+          "date": "2026-09-07",
+          "value": 28.3
+        },
+        {
+          "date": "2026-09-08",
+          "value": 29
+        },
+        {
+          "date": "2026-09-09",
+          "value": 41.8
+        },
+        {
+          "date": "2026-09-10",
+          "value": 32.1
+        },
+        {
+          "date": "2026-09-11",
+          "value": 53.4
+        },
+        {
+          "date": "2026-09-12",
+          "value": 27.9
+        },
+        {
+          "date": "2026-09-13",
+          "value": 30.5
+        },
+        {
+          "date": "2026-09-14",
+          "value": 25.8
+        },
+        {
+          "date": "2026-09-15",
+          "value": 88.1
+        },
+        {
+          "date": "2026-09-16",
+          "value": 31.1
+        },
+        {
+          "date": "2026-09-17",
+          "value": 40.2
+        },
+        {
+          "date": "2026-09-18",
+          "value": 32.7
+        },
+        {
+          "date": "2026-09-19",
+          "value": 29.6
+        },
+        {
+          "date": "2026-09-20",
+          "value": 30.6
+        },
+        {
+          "date": "2026-09-21",
+          "value": 65.8
+        }
+      ],
+      "sleep": [
+        {
+          "date": "2026-08-23",
+          "value": 6.17
+        },
+        {
+          "date": "2026-08-24",
+          "value": 5.08
+        },
+        {
+          "date": "2026-08-25",
+          "value": 8.33
+        },
+        {
+          "date": "2026-08-26",
+          "value": 7.67
+        },
+        {
+          "date": "2026-08-27",
+          "value": 7.75
+        },
+        {
+          "date": "2026-08-28",
+          "value": 8.08
+        },
+        {
+          "date": "2026-08-29",
+          "value": 8.67
+        },
+        {
+          "date": "2026-08-30",
+          "value": 7.42
+        },
+        {
+          "date": "2026-08-31",
+          "value": 7.42
+        },
+        {
+          "date": "2026-09-01",
+          "value": 8.25
+        },
+        {
+          "date": "2026-09-02",
+          "value": 8.08
+        },
+        {
+          "date": "2026-09-03",
+          "value": 7.42
+        },
+        {
+          "date": "2026-09-04",
+          "value": 7.08
+        },
+        {
+          "date": "2026-09-05",
+          "value": 5.25
+        },
+        {
+          "date": "2026-09-06",
+          "value": 9.5
+        },
+        {
+          "date": "2026-09-07",
+          "value": 9.5
+        },
+        {
+          "date": "2026-09-08",
+          "value": 7.33
+        },
+        {
+          "date": "2026-09-09",
+          "value": 8.67
+        },
+        {
+          "date": "2026-09-10",
+          "value": 2.42
+        },
+        {
+          "date": "2026-09-11",
+          "value": 6.25
+        },
+        {
+          "date": "2026-09-12",
+          "value": 8.42
+        },
+        {
+          "date": "2026-09-13",
+          "value": 6.33
+        },
+        {
+          "date": "2026-09-14",
+          "value": 7.67
+        },
+        {
+          "date": "2026-09-15",
+          "value": 7.83
+        },
+        {
+          "date": "2026-09-16",
+          "value": 7.5
+        },
+        {
+          "date": "2026-09-17",
+          "value": 8
+        },
+        {
+          "date": "2026-09-18",
+          "value": 6.92
+        },
+        {
+          "date": "2026-09-19",
+          "value": 9.17
+        },
+        {
+          "date": "2026-09-20",
+          "value": 8.08
+        },
+        {
+          "date": "2026-09-21",
+          "value": 8.5
+        }
+      ]
+    }
+  },
+  "settings": {
+    "calendarMonth": "2026-09"
+  },
+  "meta": {
+    "starterImported": true,
+    "publicAutoSync": true,
+    "sourceNote": "Work schedule from Google Calendar; wellness snapshot from connected Apple Health.",
+    "scheduleStart": "2026-09-22",
+    "scheduleThrough": "2027-09-03",
+    "lastAutoUpdate": "2026-09-22T11:00:00-05:00"
+  },
+  "plan": {
+    "phases": [
+      {
+        "id": "p1a",
+        "name": "Phase 1 · Re-entry",
+        "start": "2026-09-21",
+        "end": "2026-09-27",
+        "cal": 2100,
+        "protein": 160,
+        "steps": "~5,500/day",
+        "strength": 2,
+        "cardio": [
+          "steady",
+          "steady"
+        ],
+        "dur": "20–25 min",
+        "mode": "cut",
+        "steadyDose": "5 easy + 10–15 brisk RPE 4 + 5 easy",
+        "easyDose": "20–30 min comfortable walking · RPE 3–4"
+      },
+      {
+        "id": "p1b",
+        "name": "Phase 1 · Re-entry",
+        "start": "2026-09-28",
+        "end": "2026-10-04",
+        "cal": 2100,
+        "protein": 160,
+        "steps": "~6,500/day",
+        "strength": 3,
+        "cardio": [
+          "steady",
+          "steady"
+        ],
+        "dur": "20–25 min",
+        "mode": "cut",
+        "steadyDose": "5 easy + 10–15 brisk RPE 4 + 5 easy",
+        "easyDose": "20–30 min comfortable walking · RPE 3–4"
+      },
+      {
+        "id": "p1c",
+        "name": "Phase 1 · Re-entry",
+        "start": "2026-10-05",
+        "end": "2026-10-08",
+        "cal": 2100,
+        "protein": 160,
+        "steps": "~7,000/day",
+        "strength": 3,
+        "cardio": [
+          "steady",
+          "steady"
+        ],
+        "dur": "20–25 min",
+        "mode": "cut",
+        "steadyDose": "5 easy + 10–15 brisk RPE 4 + 5 easy",
+        "easyDose": "20–30 min comfortable walking · RPE 3–4"
+      },
+      {
+        "id": "flex1",
+        "name": "Green Bay flex",
+        "start": "2026-10-09",
+        "end": "2026-10-12",
+        "cal": "Maintenance / flex",
+        "protein": 160,
+        "steps": "Natural activity",
+        "strength": 0,
+        "cardio": [
+          "easy"
+        ],
+        "dur": "20–30 min optional",
+        "mode": "flex",
+        "easyDose": "Natural activity or 20–30 min easy walking"
+      },
+      {
+        "id": "p2",
+        "name": "Phase 2 · Base build",
+        "start": "2026-10-13",
+        "end": "2026-11-24",
+        "cal": 2100,
+        "protein": 160,
+        "steps": "7,000–8,000/day",
+        "strength": 3,
+        "cardio": [
+          "steady",
+          "steady"
+        ],
+        "dur": "30–35 min",
+        "mode": "cut",
+        "steadyDose": "5 easy + 20–25 brisk RPE 4–5 + 5 easy",
+        "easyDose": "20–30 min comfortable walking · RPE 3–4"
+      },
+      {
+        "id": "thanks",
+        "name": "Thanksgiving maintenance",
+        "start": "2026-11-25",
+        "end": "2026-11-29",
+        "cal": "Maintenance",
+        "protein": 160,
+        "steps": "Natural activity",
+        "strength": 0,
+        "cardio": [
+          "easy"
+        ],
+        "dur": "20–30 min optional",
+        "mode": "flex",
+        "easyDose": "Natural activity or 20–30 min easy walking"
+      },
+      {
+        "id": "p3",
+        "name": "Phase 3 · Capacity",
+        "start": "2026-11-30",
+        "end": "2027-01-05",
+        "cal": "2,050–2,100*",
+        "protein": 160,
+        "steps": "7,500–8,500/day",
+        "strength": 3,
+        "cardio": [
+          "steady",
+          "interval"
+        ],
+        "dur": "35–40 / 30–35 min",
+        "mode": "cut",
+        "steadyDose": "5 easy + 25–30 brisk RPE 4–5 + 5 easy",
+        "intervalDose": "5 easy + 5 × (2 fast / 2 easy) + 5–10 easy",
+        "easyDose": "20–30 min comfortable walking · RPE 3–4"
+      },
+      {
+        "id": "break",
+        "name": "Diet break / overnight adaptation",
+        "start": "2027-01-06",
+        "end": "2027-01-14",
+        "cal": "2,400–2,500",
+        "protein": 160,
+        "steps": "6,000–7,000+; sleep first",
+        "strength": 2,
+        "cardio": [
+          "easy",
+          "easy"
+        ],
+        "dur": "20–30 min",
+        "mode": "maintenance",
+        "easyDose": "20–30 min comfortable walking · RPE 3–4; no intervals while sleep is shifting"
+      },
+      {
+        "id": "p4",
+        "name": "Phase 4 · Athletic cut",
+        "start": "2027-01-15",
+        "end": "2027-02-04",
+        "cal": "2,050–2,100*",
+        "protein": 160,
+        "steps": "7,500–8,500/day",
+        "strength": 3,
+        "cardio": [
+          "steady",
+          "interval"
+        ],
+        "dur": "40–45 / 34–36 min",
+        "mode": "cut",
+        "steadyDose": "5 easy + 30–35 brisk RPE 4–5 + 5 easy",
+        "intervalDose": "5 easy + 6 × (2 fast / 2 easy) + 5–7 easy",
+        "easyDose": "20–30 min comfortable walking · RPE 3–4"
+      },
+      {
+        "id": "mardi",
+        "name": "Mardi Gras flex",
+        "start": "2027-02-05",
+        "end": "2027-02-08",
+        "cal": "Maintenance / flex",
+        "protein": 160,
+        "steps": "As practical",
+        "strength": 0,
+        "cardio": [
+          "easy"
+        ],
+        "dur": "Recovery walking only",
+        "mode": "flex",
+        "easyDose": "Recovery walking only; no hard training around dehydration/alcohol"
+      },
+      {
+        "id": "p5",
+        "name": "Phase 5 · Finish / hold",
+        "nameAfter": "Continuation · Phase 5 rules",
+        "start": "2027-02-09",
+        "end": "2027-03-31",
+        "continueAfter": true,
+        "cal": "2,050–2,100 until goal; then maintenance",
+        "protein": 160,
+        "steps": "7,500–9,000/day",
+        "strength": 3,
+        "cardio": [
+          "steady",
+          "interval"
+        ],
+        "dur": "40–45 / 34–36 min",
+        "mode": "cut-to-goal",
+        "steadyDose": "5 easy + 30–35 brisk RPE 4–5 + 5 easy",
+        "intervalDose": "5 easy + 6 × (2 fast / 2 easy) + 5–7 easy",
+        "easyDose": "20–30 min comfortable walking · RPE 3–4"
+      }
+    ],
+    "nutrition": {
+      "proteinRange": "150–170 g",
+      "fatRange": "60–75",
+      "fiberRange": "25–35",
+      "hydration": "~2.5–3.0 L/day baseline"
+    }
+  }
+}
