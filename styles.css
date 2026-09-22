@@ -46,3 +46,18 @@ nav button.active .nav-icon{color:var(--accent)}
 code{background:#071522;border:1px solid var(--line);padding:2px 5px;border-radius:5px;color:#bedcff}
 @media(max-width:1050px){.dashboard-hero{grid-template-columns:1fr}.progress-top{grid-template-columns:1fr}.phase-targets{grid-template-columns:1fr 1fr 1fr}}
 @media(max-width:760px){.nav-section-label{display:none}nav button{padding:.58rem .68rem}.nav-icon{width:auto}.dashboard-hero{display:block}.dashboard-hero>.card+ .card{margin-top:12px}.focus-grid{grid-template-columns:1fr}.phase-targets{grid-template-columns:1fr}.health-header{align-items:flex-start;gap:10px}.health-header .pill{display:none}.goal-card{gap:10px}.goal-ring{width:94px;height:94px;min-width:94px}.compact-form{grid-template-columns:1fr}.chart-card{padding:14px 10px 8px}.chart-stat{font-size:14px}}
+
+/* Interactive chart readouts */
+.chart-svg.interactive{overflow:visible}
+.chart-datum{outline:none;cursor:crosshair;transition:opacity .15s ease,filter .15s ease}
+.chart-bar.chart-datum:hover,.chart-bar.chart-datum.is-hovered,.chart-bar.chart-datum:focus{filter:brightness(1.28);opacity:1}
+.chart-point{fill:var(--accent);stroke:#07111f;stroke-width:1.5;opacity:.58;pointer-events:none;transition:r .15s ease,opacity .15s ease}
+.chart-hit{fill:transparent;stroke:transparent;cursor:crosshair}
+.chart-hit:hover+.chart-point,.chart-hit:focus+.chart-point{opacity:1}
+.chart-datum:focus{outline:none}
+#chartTooltip{position:fixed;z-index:9999;min-width:118px;padding:10px 12px;border:1px solid rgba(145,164,188,.28);border-radius:12px;background:rgba(5,12,22,.96);box-shadow:0 16px 42px rgba(0,0,0,.42);backdrop-filter:blur(14px);pointer-events:none;opacity:0;transform:translateY(6px);transition:opacity .12s ease,transform .12s ease;color:var(--text)}
+#chartTooltip.show{opacity:1;transform:translateY(0)}
+#chartTooltip b{display:block;font-size:11px;letter-spacing:.04em;color:var(--muted);font-weight:750;margin-bottom:2px}
+#chartTooltip span{display:block;font-size:17px;font-weight:900;letter-spacing:-.02em}
+.chart-card .chart-wrap{position:relative}
+.chart-card:hover{border-color:rgba(99,179,255,.28)}
