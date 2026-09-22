@@ -2635,5 +2635,13 @@
       },
       "adjustment": "Start near the slower end of the range. Adjust by roughly 15–30 sec/mi as needed to match the target RPE; do not force a listed pace if form or breathing says otherwise."
     }
+  },
+  "scheduleTimeOverrides": {
+    "2026-09-24": {
+      "code": "X",
+      "hours": "12p–8p",
+      "trainingWindow": "~9:45–10:45 AM before work",
+      "note": "Permanent one-off hours override for this X shift; do not replace from Calendar."
+    }
   }
 }
