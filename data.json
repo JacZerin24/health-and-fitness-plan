@@ -1279,7 +1279,8 @@
         }
       ]
     },
-    "walkingSpeed30dMph": 2.46
+    "walkingSpeed30dMph": 2.46,
+    "walkingPace30d": "24:23/mi"
   },
   "settings": {
     "calendarMonth": "2026-09"
@@ -2615,23 +2616,24 @@
       "rule": "Session assignment follows the approved dated master plan; current Google Calendar shift controls the displayed timing window."
     },
     "cardioGuide": {
-      "basis": "Starting walking-pad ranges calibrated around recent Apple Health ordinary walking speed (~2.46 mph); RPE/talk test overrides speed.",
+      "basis": "Starting Apple Watch pace ranges calibrated around recent ordinary walking pace (~24:23/mi); RPE/talk test overrides pace.",
+      "unit": "min/mi",
       "easy": {
-        "pace": "2.1–2.6 mph",
+        "pace": "23:05–28:34/mi",
         "rpe": "3–4",
         "feel": "Relaxed breathing; recovery pace."
       },
       "brisk": {
-        "pace": "2.7–3.1 mph",
+        "pace": "19:21–22:13/mi",
         "rpe": "4–5",
         "feel": "Purposeful walk; breathing elevated but full sentences still comfortable."
       },
       "fast": {
-        "pace": "3.2–3.6 mph",
+        "pace": "16:40–18:45/mi",
         "rpe": "6–7",
         "feel": "Strong purposeful walk, controlled and never a sprint."
       },
-      "adjustment": "Start at the low end. Change speed by ~0.1–0.2 mph as needed to match the target RPE; do not force a listed speed if form or breathing says otherwise."
+      "adjustment": "Start near the slower end of the range. Adjust by roughly 15–30 sec/mi as needed to match the target RPE; do not force a listed pace if form or breathing says otherwise."
     }
   }
 }
