@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#0f172a" />
+  <title>ShiftFit Dashboard</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">SF</div>
+        <div><strong>ShiftFit</strong><span>adaptive recomp dashboard</span></div>
+      </div>
+      <nav id="nav">
+        <button data-view="today" class="active">Today</button>
+        <button data-view="week">This week</button>
+        <button data-view="schedule">Schedule</button>
+        <button data-view="training">Training</button>
+        <button data-view="nutrition">Nutrition</button>
+        <button data-view="health">Health</button>
+        <button data-view="progress">Progress</button>
+        <button data-view="sync">Data & sync</button>
+      </nav>
+      <div class="privacy-note">Private metrics stay in this browser unless you export them.</div>
+    </aside>
+
+    <main>
+      <header class="topbar">
+        <div>
+          <div class="eyebrow" id="todayDate"></div>
+          <h1 id="pageTitle">Today</h1>
+        </div>
+        <div class="top-actions">
+          <span id="dataStatus" class="pill muted">No private data loaded</span>
+          <button id="quickWeight" class="secondary">Log weight</button>
+        </div>
+      </header>
+
+      <section id="view-today" class="view active"></section>
+      <section id="view-week" class="view"></section>
+      <section id="view-schedule" class="view"></section>
+      <section id="view-training" class="view"></section>
+      <section id="view-nutrition" class="view"></section>
+      <section id="view-health" class="view"></section>
+      <section id="view-progress" class="view"></section>
+      <section id="view-sync" class="view"></section>
+    </main>
+  </div>
+
+  <dialog id="editDayDialog">
+    <form method="dialog" id="editDayForm">
+      <h3>Edit shift</h3>
+      <p id="editDayLabel" class="muted-text"></p>
+      <label>Shift
+        <select id="editShiftSelect">
+          <option value="OFF">OFF</option><option value="G">G · 6a–2p</option>
+          <option value="I">I · 8a–4p</option><option value="X">X · supernumerary</option>
+          <option value="K">K · 10a–6p</option><option value="M">M · 12p–8p</option>
+          <option value="P">P · 2p–10p</option><option value="R">R · 4p–12a</option>
+          <option value="W">W · 10p–6a</option><option value="A">A · 12a–8a</option>
+        </select>
+      </label>
+      <div class="dialog-actions"><button value="cancel" class="secondary">Cancel</button><button value="save">Save</button></div>
+    </form>
+  </dialog>
+
+  <input id="starterImport" type="file" accept="application/json" hidden />
+  <input id="icsImport" type="file" accept=".ics,text/calendar" hidden />
+  <script src="app.js"></script>
+</body>
+</html>
