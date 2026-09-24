@@ -12,16 +12,6 @@
   },
   "scheduleRanges": [
     {
-      "start": "2026-09-01",
-      "end": "2026-09-01",
-      "code": "P"
-    },
-    {
-      "start": "2026-09-03",
-      "end": "2026-09-09",
-      "code": "W"
-    },
-    {
       "start": "2026-09-21",
       "end": "2026-09-23",
       "code": "G"
@@ -375,28 +365,24 @@
   "scheduleOverrides": {},
   "weightEntries": [],
   "health": {
-    "snapshotDate": "2026-09-22",
-    "latestSleepHours": 8.5,
-    "sleep7d": 8,
+    "snapshotDate": "2026-09-23",
+    "latestSleepHours": 6.17,
+    "sleep7d": 7.76,
     "sleep30d": 7.49,
-    "steps7d": 5186.4,
-    "steps30d": 4655.6,
-    "rhr7d": 69.1,
-    "rhr30d": 70.1,
-    "hrv7d": 45.4,
-    "hrv30d": 36.8,
-    "active7d": 395.4,
-    "active30d": 383.6,
+    "steps7d": 3472.57,
+    "steps30d": 4651.43,
+    "rhr7d": 69.19,
+    "rhr30d": 70.28,
+    "hrv7d": 36.49,
+    "hrv30d": 36.31,
+    "active7d": 306,
+    "active30d": 384.6,
     "vo2max": 34.84,
     "vo2maxDate": "2026-09-15",
     "weightHealth": 198,
     "weightHealthDate": "2026-06-29",
     "series": {
       "steps": [
-        {
-          "date": "2026-08-23",
-          "value": 1900
-        },
         {
           "date": "2026-08-24",
           "value": 3903
@@ -512,13 +498,13 @@
         {
           "date": "2026-09-21",
           "value": 942
+        },
+        {
+          "date": "2026-09-22",
+          "value": 1775
         }
       ],
       "active": [
-        {
-          "date": "2026-08-23",
-          "value": 273
-        },
         {
           "date": "2026-08-24",
           "value": 532
@@ -634,13 +620,13 @@
         {
           "date": "2026-09-21",
           "value": 198
+        },
+        {
+          "date": "2026-09-22",
+          "value": 303
         }
       ],
       "rhr": [
-        {
-          "date": "2026-08-23",
-          "value": 66
-        },
         {
           "date": "2026-08-24",
           "value": 78
@@ -752,13 +738,13 @@
         {
           "date": "2026-09-21",
           "value": 69.3
+        },
+        {
+          "date": "2026-09-22",
+          "value": 70
         }
       ],
       "hrv": [
-        {
-          "date": "2026-08-23",
-          "value": 39.4
-        },
         {
           "date": "2026-08-24",
           "value": 33.5
@@ -874,13 +860,13 @@
         {
           "date": "2026-09-21",
           "value": 65.8
+        },
+        {
+          "date": "2026-09-22",
+          "value": 25.4
         }
       ],
       "sleep": [
-        {
-          "date": "2026-08-23",
-          "value": 6.17
-        },
         {
           "date": "2026-08-24",
           "value": 5.08
@@ -996,6 +982,10 @@
         {
           "date": "2026-09-21",
           "value": 8.5
+        },
+        {
+          "date": "2026-09-22",
+          "value": 6.17
         }
       ],
       "bodyMass": [
@@ -1289,9 +1279,9 @@
     "starterImported": true,
     "publicAutoSync": true,
     "sourceNote": "Work schedule from Google Calendar; wellness snapshot from connected Apple Health.",
-    "scheduleStart": "2026-09-01",
+    "scheduleStart": "2026-09-21",
     "scheduleThrough": "2027-09-03",
-    "lastAutoUpdate": "2026-09-22T11:00:00-05:00",
+    "lastAutoUpdate": "2026-09-23T23:46:00-05:00",
     "scheduleTimezone": "America/Chicago",
     "scheduleDateRule": "Calendar event local start date; no day offset"
   },
