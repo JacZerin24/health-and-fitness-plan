@@ -365,32 +365,24 @@
   "scheduleOverrides": {},
   "weightEntries": [],
   "health": {
-    "snapshotDate": "2026-09-23",
-    "latestSleepHours": 6.17,
-    "sleep7d": 7.76,
-    "sleep30d": 7.49,
-    "steps7d": 3472.57,
-    "steps30d": 4651.43,
-    "rhr7d": 69.19,
-    "rhr30d": 70.28,
-    "hrv7d": 36.49,
-    "hrv30d": 36.31,
-    "active7d": 306,
-    "active30d": 384.6,
+    "snapshotDate": "2026-09-24",
+    "latestSleepHours": 1.42,
+    "sleep7d": 7.86,
+    "sleep30d": 7.58,
+    "steps7d": 3080.86,
+    "steps30d": 4532.37,
+    "rhr7d": 70.33,
+    "rhr30d": 70.38,
+    "hrv7d": 35,
+    "hrv30d": 36.2,
+    "active7d": 294.57,
+    "active30d": 381.6,
     "vo2max": 34.84,
     "vo2maxDate": "2026-09-15",
     "weightHealth": 198,
     "weightHealthDate": "2026-06-29",
     "series": {
       "steps": [
-        {
-          "date": "2026-08-24",
-          "value": 3903
-        },
-        {
-          "date": "2026-08-25",
-          "value": 4745
-        },
         {
           "date": "2026-08-26",
           "value": 3566
@@ -502,17 +494,17 @@
         {
           "date": "2026-09-22",
           "value": 1775
+        },
+        {
+          "date": "2026-09-23",
+          "value": 2313
+        },
+        {
+          "date": "2026-09-24",
+          "value": 2763
         }
       ],
       "active": [
-        {
-          "date": "2026-08-24",
-          "value": 532
-        },
-        {
-          "date": "2026-08-25",
-          "value": 223
-        },
         {
           "date": "2026-08-26",
           "value": 386
@@ -624,17 +616,17 @@
         {
           "date": "2026-09-22",
           "value": 303
+        },
+        {
+          "date": "2026-09-23",
+          "value": 288
+        },
+        {
+          "date": "2026-09-24",
+          "value": 377
         }
       ],
       "rhr": [
-        {
-          "date": "2026-08-24",
-          "value": 78
-        },
-        {
-          "date": "2026-08-25",
-          "value": 69
-        },
         {
           "date": "2026-08-26",
           "value": 74
@@ -742,17 +734,17 @@
         {
           "date": "2026-09-22",
           "value": 70
+        },
+        {
+          "date": "2026-09-23",
+          "value": 72.3
+        },
+        {
+          "date": "2026-09-24",
+          "value": 77.5
         }
       ],
       "hrv": [
-        {
-          "date": "2026-08-24",
-          "value": 33.5
-        },
-        {
-          "date": "2026-08-25",
-          "value": 30.7
-        },
         {
           "date": "2026-08-26",
           "value": 37.9
@@ -864,17 +856,17 @@
         {
           "date": "2026-09-22",
           "value": 25.4
+        },
+        {
+          "date": "2026-09-23",
+          "value": 38.8
+        },
+        {
+          "date": "2026-09-24",
+          "value": 22.1
         }
       ],
       "sleep": [
-        {
-          "date": "2026-08-24",
-          "value": 5.08
-        },
-        {
-          "date": "2026-08-25",
-          "value": 8.33
-        },
         {
           "date": "2026-08-26",
           "value": 7.67
@@ -986,6 +978,14 @@
         {
           "date": "2026-09-22",
           "value": 6.17
+        },
+        {
+          "date": "2026-09-23",
+          "value": 6.42
+        },
+        {
+          "date": "2026-09-24",
+          "value": 9.75
         }
       ],
       "bodyMass": [
@@ -1269,8 +1269,8 @@
         }
       ]
     },
-    "walkingSpeed30dMph": 2.46,
-    "walkingPace30d": "24:23/mi"
+    "walkingSpeed30dMph": 2.45,
+    "walkingPace30d": "24:30/mi"
   },
   "settings": {
     "calendarMonth": "2026-09"
@@ -1281,7 +1281,7 @@
     "sourceNote": "Work schedule from Google Calendar; wellness snapshot from connected Apple Health.",
     "scheduleStart": "2026-09-21",
     "scheduleThrough": "2027-09-03",
-    "lastAutoUpdate": "2026-09-23T23:46:00-05:00",
+    "lastAutoUpdate": "2026-09-25T12:43:00-05:00",
     "scheduleTimezone": "America/Chicago",
     "scheduleDateRule": "Calendar event local start date; no day offset"
   },
