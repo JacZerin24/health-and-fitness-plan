@@ -1,83 +1,42 @@
-# Private data format
+# ShiftFit private import format
 
-The application intentionally ships without personal targets, dated phases, schedule, or health values. Import those privately in the browser.
+The public `data.json` contains only a generic training template and no private measurements. The dashboard reads personal data from browser storage and merges private JSON refreshes into it.
 
-A starter/backup JSON can contain any subset of these top-level fields:
+## Example: health-only refresh
 
 ```json
 {
   "version": 2,
-  "profile": {
-    "name": "Example",
-    "startWeight": 190,
-    "targetWeight": 175,
-    "protein": 150,
-    "commuteMin": 30
-  },
-  "plan": {
-    "phases": [
-      {
-        "id": "phase1",
-        "name": "Phase 1",
-        "start": "2030-01-01",
-        "end": "2030-01-31",
-        "cal": 2200,
-        "protein": 150,
-        "steps": "7,000/day",
-        "strength": 3,
-        "cardio": ["steady", "steady"],
-        "dur": "30–35 min",
-        "steadyDose": "5 easy + 20–25 brisk + 5 easy",
-        "mode": "cut"
-      }
-    ],
-    "nutrition": {
-      "proteinRange": "140–160 g",
-      "fatRange": "60–75",
-      "fiberRange": "25–35",
-      "hydration": "2–3 L/day baseline"
+  "health": {
+    "snapshotDate": "2030-01-05",
+    "latestSleepHours": 7.8,
+    "sleep7d": 7.5,
+    "sleep30d": 7.4,
+    "steps7d": 7200,
+    "steps30d": 6900,
+    "rhr7d": 65,
+    "hrv7d": 40,
+    "series": {
+      "steps": [{"date": "2030-01-04", "value": 7100}],
+      "sleep": [{"date": "2030-01-04", "value": 7.6}]
     }
   },
-  "scheduleRanges": [
-    {"start":"2030-01-02","end":"2030-01-03","code":"G"}
-  ],
-  "scheduleOverrides": {},
-  "weightEntries": [
-    {"date":"2030-01-05","weight":188.8,"waist":34.5}
-  ],
-  "health": {
-    "snapshotDate":"2030-01-05",
-    "latestSleepHours":7.8,
-    "sleep7d":7.5,
-    "steps7d":7200,
-    "rhr7d":65,
-    "hrv7d":40
-  },
-  "meta": {
-    "scheduleStart":"2030-01-02",
-    "scheduleThrough":"2030-02-01"
-  }
+  "meta": { "lastPrivateUpdate": "2030-01-05T12:00:00-06:00" }
 }
 ```
 
-## Shift codes
+## Optional fields
 
-- G: 6 AM–2 PM
-- I: 8 AM–4 PM
-- X: supernumerary / usually daytime
-- K: 10 AM–6 PM
-- M: 12 PM–8 PM
-- P: 2 PM–10 PM
-- R: 4 PM–12 AM
-- W: 10 PM–6 AM
-- A: 12 AM–8 AM
-- OFF: explicitly off
-- TBD: schedule not loaded yet
+- `profile`: `startWeight`, `targetWeight`, `heightIn`, `protein`, `commuteMin`.
+- `plan.phases`: date-bounded plan phases with `start`, `end`, `cal`, `protein`, `steps`, `strength`, `cardio`.
+- `plan.nutrition`: display text for protein/fat/fiber/hydration ranges.
+- `scheduleRanges`: `{start,end,code}` inclusive; `scheduleOverrides`: a map of date to shift code.
+- `weightEntries`: manually entered `{date,weight,waist}` array.
+- `health.series`: daily `{date,value}` arrays keyed by `steps`, `active`, `rhr`, `hrv`, `sleep`, `bodyMass`, `vo2max`.
+- `meta`: optional `scheduleStart`, `scheduleThrough`, and `lastPrivateUpdate`.
 
-## Calendar imports
+Valid shifts: `G` 6a–2p, `I` 8a–4p, `X` supernumerary, `K` 10a–6p, `M` 12p–8p, `P` 2p–10p, `R` 4p–midnight, `W` 10p–6a, `A` midnight–8a, `OFF`, and `TBD`.
 
-The `.ics` importer looks for event summaries containing `[LIX]` followed by a recognized shift code and `Shift`. The earliest/latest recognized shift dates update known schedule coverage. Dates inside that coverage without a shift event are treated as off days. Dates after known coverage are shown as `TBD`.
+Imports merge nested objects, including new health metrics and shift overrides. Arrays (for example `plan.phases`, `health.series.steps`) replace the previous array when supplied. Omitted sections remain unchanged. Export a full backup when you want to transfer all local data to another device.
 
-## Health updates
-
-A later health-only refresh may contain only `{ "health": { ... } }`. Raw HealthKit samples are not required and should not be committed to the repository.
+**Safety:** GitHub Pages cannot directly use Apple HealthKit or a private Google Calendar without a separately authorized backend. Never put this private JSON or credentials into the GitHub repository.
